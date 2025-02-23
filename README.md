@@ -71,19 +71,5 @@ sounddevice.PortAudioError: Error querying device
 
 Try changing the `device_index` in `config.py` to match your microphone from `python -m sounddevice`.
 
-### **Authentication Issues While Pushing to GitHub**
 
-If you face authentication errors while pushing updates to GitHub, ensure you are using a **GitHub token** instead of a password:
-
-```sh
-git remote set-url origin https://<your-token>@github.com/Ritwika06/voice-chatbot.git
-```
-
-Then, retry:
-
-```sh
-git push -u origin main
-```
-
----
 
