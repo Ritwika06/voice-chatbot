@@ -24,15 +24,13 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.divider()  # Adds a visual divider
+st.divider() 
 
-# UI placeholders
 status_placeholder = st.empty()
 transcription_placeholder = st.empty()
 response_placeholder = st.empty()
 tts_placeholder = st.empty()
 
-# Session state initialization
 if "process_running" not in st.session_state:
     st.session_state.process_running = False
 
@@ -42,7 +40,6 @@ if "transcription_text" not in st.session_state:
 if "llm_response" not in st.session_state:
     st.session_state.llm_response = ""
 
-# Ask Question Button with Styling
 st.markdown(
     """
     <style>
@@ -104,5 +101,4 @@ if st.session_state.llm_response:
     tts_placeholder.success("✅ LLM response converted to speech!")
     st.audio(tts_audio_file_path, format="audio/mp3", autoplay=True)
 
-# Reset process state
 st.session_state.process_running = False
