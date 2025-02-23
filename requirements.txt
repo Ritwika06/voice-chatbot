@@ -1,0 +1,12 @@
+streamlit
+langchain-core
+langchain-community
+langchain_ollama
+python-decouple
+gtts
+sounddevice
+soundfile
+openai
+transformers
+torch
+torchaudio
