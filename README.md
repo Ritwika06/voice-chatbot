@@ -52,7 +52,7 @@ Alternatively, you can modify the `record_audio` function to accept the `device_
 To start the chatbot, run:
 
 ```sh
-python app.py
+streamlit run app.py --server.fileWatcherType none
 ```
 
 Speak into the microphone, and the chatbot will respond with voice output.
