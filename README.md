@@ -58,6 +58,8 @@ streamlit run app.py --server.fileWatcherType none
 Speak into the microphone, and the chatbot will respond with voice output.
 
 ---
+## Watch the demo
+[🎬 Watch the Demo](https://drive.google.com/file/d/1_dZHFf6ctUY0MweRn8pZfX_s165wtwDi/view?usp=sharing)
 
 ## Troubleshooting
 
